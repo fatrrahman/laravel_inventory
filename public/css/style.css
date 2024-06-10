@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.8)), url(/img/minimarket.jpg);
+    background-size: cover;
+}
+.navbar {
+    background-color: black; 
+    padding: 10px 30px;
+  }
+

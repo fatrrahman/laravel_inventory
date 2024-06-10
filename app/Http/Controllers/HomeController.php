@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class HomeController extends Controller
+{
+    public function index()
+    {
+        $data = array(
+            'title' => "Home Page"
+        );
+
+        return view('home', $data);
+    }
+    public function dashboard()
+    {
+        $data = array(
+            'title' => "dashboard"
+        );
+
+        return view('dashboard', $data);
+    }
+
+}
